@@ -1,4 +1,4 @@
-package load_test
+package load
 
 import (
 	"time"

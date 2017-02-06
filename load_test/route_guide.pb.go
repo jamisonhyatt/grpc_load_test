@@ -16,7 +16,7 @@ It has these top-level messages:
 	RouteNote
 	RouteSummary
 */
-package load_test
+package load
 
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"

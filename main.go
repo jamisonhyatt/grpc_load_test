@@ -25,7 +25,7 @@ func main() {
 
 
 	testLength := time.Minute * time.Duration(*minutes)
-	testRequest := load_test.LoadTestRequest{
+	testRequest := load.LoadTestRequest{
 		Hostname: *hostName,
 		Port: *port,
 		TestLength: testLength,
@@ -44,7 +44,7 @@ func main() {
 	fmt.Println("Started...")
 
 	start := time.Now()
-	results := load_test.Loadtest(testRequest)
+	results := load.Loadtest(testRequest)
 	duration := time.Since(start)
 	fmt.Println("...Complete.")
 
