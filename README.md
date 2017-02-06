@@ -1,7 +1,7 @@
 # grpc_load_test
 Small golang utility to load test the grpc route guide example application.
 
-Runs a timed load test for a configurable amount of concurrent requests (via goroutines) and then reports on the statistics it received. Switches are detailed below.  
+Runs a timed load test for a configurable amount of concurrent requests (via goroutines) and then reports on the success/error/streamed counts. Switches are detailed below.  
 
 Currently only exercises the "ListFeatures" example streaming api.
 
